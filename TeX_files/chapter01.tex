@@ -1,1 +1,25 @@
 \chapter{线性代数}
+\section{向量}
+\subsection{线性独立}
+若：
+\[\beta_1a_1+\cdots+\beta_ka_k=0\]
+对于$ n $维向量$ \left \{ a_1,\,\cdots,a_k \right \} $存在不全为零的解$ \beta_1, \cdots,\beta_k $，则称$ \left \{ a_1,\,\cdots,a_k \right \} $线性相关。\newline
+若：
+\[\beta_1a_1+\cdots+\beta_ka_k=0\]
+对于$ n $维向量$ \left \{ a_1,\,\cdots,a_k \right \} $的解为$ \beta_1=\cdots=\beta_k=0 $，则称$ \left \{ a_1,\,\cdots,a_k \right \} $线性独立。
+\subsection{基}
+一个线性独立的$ n $维向量$ \left \{ a_1,\,\cdots,a_n \right \} $称为基。$ n $维向量$ b $可以表示为基的线性组合：
+\[ b=\alpha_1 a_1+\cdots+\alpha_n a_n \]
+且系数$ \left \{ \alpha_1,\,\cdots,\alpha_n \right \} $唯一。
+\subsection{Gram-Schmidt算法}
+Gram-Schmidt算法用来判断$ n $维向量$ \left \{ a_1,\,\cdots,a_k \right \} $是否线性独立。
+
+\section{矩阵}
+\subsection{矩阵基本性质}
+\begin{itemize}
+	\item $ (AB)C = A(BC) $
+	\item $ A(B+C) = AB +AC $
+	\item $ (AB)^T=B^TA^T $
+	\item $ AI=A; IA=A $
+	\item $ AB=BA $一般情况下不成立
+\end{itemize}

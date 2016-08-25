@@ -1,0 +1,15 @@
+\chapter{投资组合理论}
+\section{经典投资组合理论}
+有$n$个资产，则$\mu_i$和$\sigma_i$分别代表资产$i$的历史收益均值和标准差，$R$代表整个投资组合的收益，$\sum$代码资产组合的协方差矩阵，投资组合的各个资产的权重为 $w_i$，则有：
+\[\begin{aligned}
+\mu &= E[R]=\sum_{i=1}^{n}\mu_iw_i        \\
+\sigma^2&= Var[R]=\sum_{i=1}^{n}\sum_{j=1}^{n}\sigma_{i,j}w_iw_j \\
+&\sum_{i=1}^{n}w_i= 1
+\end{aligned} \]
+\subsection{最小方差组合}
+\[\begin{aligned}
+& \underset{w}{\text{min}}
+& & \frac{1}{2} w^T\sum w\\
+& \text{s.t.} & &  w^T\cdot 1 = 1 \\
+\end{aligned}\]
+\section{风险模型}
