@@ -19,7 +19,41 @@ Gram-Schmidt算法用来判断$ n $维向量$ \left \{ a_1,\,\cdots,a_k \right \
 \begin{itemize}
 	\item $ (AB)C = A(BC) $
 	\item $ A(B+C) = AB +AC $
+	\item $ k(AB)=(kA)B=A(kB) $
 	\item $ (AB)^T=B^TA^T $
 	\item $ AI=A; IA=A $
 	\item $ AB=BA $一般情况下不成立
 \end{itemize}
+\subsection{矩阵的转置}
+\begin{itemize}
+	\item $ (A^T)^T=A$
+	\item $ (A+B)^T=A^T=B^T $
+	\item $ (kA)^T=kA^T $
+	\item \fbox{$(AB)^T=B^TA^T$} 
+\end{itemize}
+若$ A^T=A $，则称$ A $是一个对称矩阵，若$ A^T=-A $，则称$ A $是一个反对称矩阵。
+\subsection{矩阵的逆}
+对方阵$ A $，若存在矩阵$ B $，满足$AB=BA=I$，则称$ A $是可逆的，称$ B $是$ B $的逆矩阵，记作$A^{-1}$。不可逆矩阵也成为奇异矩阵，可逆矩阵称为非奇异矩阵。
+\begin{itemize}
+	\item 若$ A $是可逆矩阵，则$ A^{-1} $也是可逆矩阵，且满足$ (A^{-1})^{-1}=A $
+	\item $ (AB)^{-1}=B^{-1}A^{-1} $
+	\item $ (A^T)^{-1}=(A^{-1})^T $
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

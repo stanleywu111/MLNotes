@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.8.23)  25 AUG 2016 22:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2016.8.23)  26 AUG 2016 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,11 +895,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
-) (./main.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)
-(./TeX_files/chapter08.aux) (./TeX_files/chapter03.aux)
-(./TeX_files/chapter09.aux) (./TeX_files/chapter07.aux)
-(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
-(./TeX_files/chapter06.aux))
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -918,8 +914,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
-
-(d:/Software/TexLive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (d:/Software/TexLive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -990,17 +985,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ] [2
 
-] (./main.toc
-
-LaTeX Font Warning: Font shape `EU1/SimSun(0)/bx/n' undefined
-(Font)              using `EU1/SimSun(0)/m/n' instead on input line 1.
-
-[3])
+] (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [4] [1
+ [3] [4
 
+]
+
+LaTeX Font Warning: Font shape `EU1/SimSun(0)/bx/n' undefined
+(Font)              using `EU1/SimSun(0)/m/n' instead on input line 18.
+
+[1
 
 ] [2]
 \openout2 = `./TeX_files/chapter01.aux'.
@@ -1106,10 +1102,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18176 strings out of 493591
- 361151 string characters out of 6143140
- 354083 words of memory out of 5000000
- 21437 multiletter control sequences out of 15000+600000
+ 18148 strings out of 493591
+ 360464 string characters out of 6143140
+ 351647 words of memory out of 5000000
+ 21427 multiletter control sequences out of 15000+600000
  8590 words of font info for 53 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  54i,12n,72p,10436b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
